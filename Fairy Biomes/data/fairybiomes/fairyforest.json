@@ -1,0 +1,48 @@
+{
+  "temperature": 0.8,
+  "downfall": 0.4,
+  "has_precipitation": false,
+  "temperature_modifier": "none",
+  "creature_spawn_probability": 1,
+  "effects": {
+    "sky_color": 15760127,
+    "fog_color": 12612299,
+    "water_color": 12002419,
+    "water_fog_color": 5049174,
+    "grass_color": 12922312,
+    "foliage_color": 12793029,
+    "ambient_sound": "",
+    "particle": {
+      "options": {
+        "type": "minecraft:dragon_breath"
+      },
+      "probability": 0.1
+    }
+  },
+  "spawners": {
+    "axolotls": [
+      {
+        "type": "minecraft:axolotl",
+        "weight": 1,
+        "minCount": 2,
+        "maxCount": 5
+      }
+    ],
+    "monster": [
+      {
+        "type": "minecraft:illusioner",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [
+      "minecraft:oak",
+      "minecraft:fancy_oak_bees"
+    ]
+  ]
+}
