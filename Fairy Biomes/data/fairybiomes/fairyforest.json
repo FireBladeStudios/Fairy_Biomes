@@ -28,7 +28,7 @@
         "maxCount": 5
       }
     ],
-    "monster": [
+    "illusioner": [
       {
         "type": "minecraft:illusioner",
         "weight": 1,
